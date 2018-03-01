@@ -1,5 +1,5 @@
 {
-  "name": "parse-error-plus",
+  "name": "@invoice-simple/parse-error-plus",
   "repository": {
     "url": "git+https://github.com/saulogt/parse-error-plus.git",
     "type": "git"
