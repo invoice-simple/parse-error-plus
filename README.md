@@ -4,20 +4,20 @@ Tested on NodeJs
 For more information: http://parseplatform.org/Parse-SDK-JS/api/classes/Parse.Error.html
 
 ## Install
-`npm i is-parse-error --save`
+`npm i @invoice-simple/parse-error-plus --save`
 
 ## Usage
 ### ES6 or Typescript
 
 ```ts
-import { setupParseError } from 'is-parse-error'
+import { setupParseError } from 'parse-error-plus'
 setupParseError(Parse)
 ```
 
 ### Old way
 
 ```js
-require('is-parse-error').setupParseError(Parse)
+require('parse-error-plus').setupParseError(Parse)
 ```
 
 `Parse` must be defined before calling it.
