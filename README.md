@@ -10,14 +10,14 @@ For more information: http://parseplatform.org/Parse-SDK-JS/api/classes/Parse.Er
 ### ES6 or Typescript
 
 ```ts
-import { setupParseError } from 'parse-error-plus'
+import { setupParseError } from '@invoice-simple/parse-error-plus'
 setupParseError(Parse)
 ```
 
 ### Old way
 
 ```js
-require('parse-error-plus').setupParseError(Parse)
+require('@invoice-simple/parse-error-plus').setupParseError(Parse)
 ```
 
 `Parse` must be defined before calling it.
