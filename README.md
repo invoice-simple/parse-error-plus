@@ -21,5 +21,3 @@ require('@invoice-simple/parse-error-plus').setupParseError(Parse)
 ```
 
 `Parse` must be defined before calling it.
-
-
